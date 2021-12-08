@@ -1,0 +1,12 @@
+body {
+  background-image: url("images/background.png");
+}
+h1{
+  text-align: center;
+  color:white;
+  font: normal 50px Arial;
+}
+.container {
+  text-align: center;
+}
+

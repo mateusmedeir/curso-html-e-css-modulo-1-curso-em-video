@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midies em HTML5</title>
+  </head>
+  <body>
+    <h1>Imagens dinamicas</h1>
+
+    <p>
+      Tente abrir esse site em varios dispositivos diferentes ou simplesmente
+      aumente ou diminua o tamanho do seu navegador
+    </p>
+    <picture>
+      <source media="(min-width: 1050px)" srcset="images/foto-g.png" />
+      <source media="(min-width: 750px)" srcset="images/foto-m.png" />
+      <img src="images/foto-p.png" alt="Imagem flexivel" />
+    </picture>
+    <h2>Reproduzindo audio</h2>
+    <p>Vamos aprender a adicionar audio</p>
+    <audio preload="metadata" autoplay controls>
+      <source src="midia/music.mp3" type="audio/mpeg" />
+      <source src="midia/music.ogg" type="audio/ogg" />
+      <source src="midia/music.wav" type="audio/wav" />
+      <p>
+        Infelizmente seu navegador não pode reproduzir audio.
+        <a href="midia/music.mp3">Clique aqui para baixar o arquivo em mp3.</a>
+      </p>
+    </audio>
+  </body>
+</html>
